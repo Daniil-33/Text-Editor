@@ -1,0 +1,62 @@
+body{
+	text-align: center;
+	margin: 10px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px; 
+	background-image: url(images/bg.jpg);
+	background-color: lightgrey;
+}
+h2{
+	font-size: 25px;
+	font-family: Arial;
+	font-weight: 900;
+	color: black;
+	font-weight: 400;
+}
+input{
+	display: inline-block;
+	margin: 20px auto;
+	border: 2px solid #eee;
+	padding: 10px 20px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
+}
+.editorSheet{
+	min-height: 65vw;
+	width: auto;
+	margin-left: 5vw;
+	border: 0 solid;
+	text-align: left;
+	font-family: Courier New, Courier;
+	font-size: 20px;
+	font-weight: lighter;
+	background-color: white;
+	padding-top: 40px;
+	padding-left: 80px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	-webkit-box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
+	opacity: 0.8;
+}
+.tdItem{
+	text-align: left;
+	padding: 10px;
+	cursor: default;
+	border-radius: 7px;
+	font-size: 16px;
+}
+.tdItem:hover{
+	background-color: white;
+	opacity: 0.7;
+	font-weight: bolder;
+}
+#h1_name{
+	margin-top:20px;
+	margin-bottom: 20px;
+	background-color: black;
+	display: block;
+	color:white;
+	padding: 20px; 
+}
